@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "enzyme": "^2.8.0",
+    "@kadira/react-storybook-addon-info": "^3.4.0",
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storyshots": "^2.1.0",
+    "enzyme": "^2.8.2",
     "react-addons-test-utils": "^15.3.0",
     "react-scripts": "^0.9.5"
   },
@@ -20,6 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "test-storybook": "storyshots"
   }
 }
