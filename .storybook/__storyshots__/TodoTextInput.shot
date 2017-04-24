@@ -249,6 +249,34 @@ exports[`with text, editing`] = `
                       </span>
                     </span>
                   </span>
+                </span>
+                <span>
+                  <span>
+                    <br />
+                      
+                  </span>
+                  <span
+                    style={Object {}}>
+                    onSave
+                  </span>
+                  <span>
+                    =
+                    <span
+                      style={Object {}}>
+                      <span>
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }>
+                          save()
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
                   <br />
                 </span>
               </span>
@@ -641,6 +669,34 @@ exports[`with text, not editing`] = `
                   <span
                     style={Object {}}>
                     newTodo
+                  </span>
+                </span>
+                <span>
+                  <span>
+                    <br />
+                      
+                  </span>
+                  <span
+                    style={Object {}}>
+                    onSave
+                  </span>
+                  <span>
+                    =
+                    <span
+                      style={Object {}}>
+                      <span>
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }>
+                          save()
+                        </span>
+                        }
+                      </span>
+                    </span>
                   </span>
                   <br />
                 </span>
@@ -1035,6 +1091,34 @@ exports[`without text, no placeholder`] = `
                     style={Object {}}>
                     newTodo
                   </span>
+                </span>
+                <span>
+                  <span>
+                    <br />
+                      
+                  </span>
+                  <span
+                    style={Object {}}>
+                    onSave
+                  </span>
+                  <span>
+                    =
+                    <span
+                      style={Object {}}>
+                      <span>
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }>
+                          save()
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
                   <br />
                 </span>
               </span>
@@ -1427,6 +1511,34 @@ exports[`without text, with placeholder`] = `
                   <span
                     style={Object {}}>
                     newTodo
+                  </span>
+                </span>
+                <span>
+                  <span>
+                    <br />
+                      
+                  </span>
+                  <span
+                    style={Object {}}>
+                    onSave
+                  </span>
+                  <span>
+                    =
+                    <span
+                      style={Object {}}>
+                      <span>
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }>
+                          save()
+                        </span>
+                        }
+                      </span>
+                    </span>
                   </span>
                   <br />
                 </span>

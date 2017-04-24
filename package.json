@@ -5,8 +5,9 @@
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
     "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-knobs": "^1.7.1",
+    "@kadira/storybook-addon-notes": "^1.0.1",
     "@kadira/storyshots": "^2.1.0",
-    "enzyme": "^2.8.2",
     "react-addons-test-utils": "^15.3.0",
     "react-scripts": "^0.9.5"
   },

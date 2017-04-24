@@ -9,6 +9,7 @@ storiesOf('TodoTextInput', module)
       placeholder=""
       editing={false}
       newTodo={true}
+      onSave={action('save')}
     />
   ))
   .addWithInfo('with text, editing', () => (
@@ -17,6 +18,7 @@ storiesOf('TodoTextInput', module)
       placeholder=""
       editing={true}
       newTodo={false}
+      onSave={action('save')}
     />
   ))
   .addWithInfo('without text, no placeholder', () => (
@@ -25,6 +27,7 @@ storiesOf('TodoTextInput', module)
       placeholder=""
       editing={false}
       newTodo={true}
+      onSave={action('save')}
     />
   ))
   .addWithInfo('without text, with placeholder', () => (
@@ -33,5 +36,6 @@ storiesOf('TodoTextInput', module)
       placeholder="Enter text here"
       editing={false}
       newTodo={true}
+      onSave={action('save')}
     />
   ))
